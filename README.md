@@ -1,8 +1,5 @@
 # A Two-Stage Deep Learning Model with Segmentation-Guided Top-K Slice Selection for Patient-Level PAS Prediction on MRI
 
-[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![PyTorch](https://img.shields.io/badge/PyTorch-1.10+-ee4c2c.svg)](https://pytorch.org/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 This repository provides the official implementation of the paper:
 
@@ -19,7 +16,7 @@ The method consists of:
 
 Compared to naive top‑K or random selection, our segmentation‑guided selection improves both accuracy and interpretability.
 
-![Pipeline](docs/pipeline.png) <!-- Add a figure of your pipeline -->
+
 
 ## Key Features
 
@@ -43,3 +40,10 @@ conda create -n pas python=3.8
 conda activate pas
 pip install torch torchvision --index-url https://download.pytorch.org/whl/cu118   # adjust CUDA version
 pip install monai numpy pandas pillow scipy tqdm scikit-learn matplotlib
+
+Due to large file sizes, the model weights cannot be hosted directly on GitHub.
+They are shared via Baidu Netdisk:
+
+Download link: https://pan.baidu.com/s/1BqlK4OuFSjq7HRSEg3C2jw
+
+Extraction code: xmq5
