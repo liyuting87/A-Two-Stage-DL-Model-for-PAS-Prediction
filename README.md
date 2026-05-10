@@ -7,9 +7,7 @@
 This repository provides the official implementation of the paper:
 
 > **"A Two‑Stage Deep Learning Model with Segmentation‑Guided Top‑K Slice Selection for Patient‑Level PAS Prediction on MRI"**  
-> *Authors: [Your Names]*  
-> *Conference/Journal: [Where it is published]*
-
+ 
 ## Overview
 
 We propose a **two‑stage deep learning pipeline** for automatic prediction of **Placenta Accreta Spectrum (PAS)** from MRI slices at the **patient‑level**.  
