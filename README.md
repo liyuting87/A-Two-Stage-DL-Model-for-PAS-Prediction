@@ -41,9 +41,5 @@ conda activate pas
 pip install torch torchvision --index-url https://download.pytorch.org/whl/cu118   # adjust CUDA version
 pip install monai numpy pandas pillow scipy tqdm scikit-learn matplotlib
 
-Due to large file sizes, the model weights cannot be hosted directly on GitHub.
-They are shared via Baidu Netdisk:
+The trained model weights have been deposited in Zenodo and are available at https://doi.org/10.5281/zenodo.20313278.
 
-Download link: https://pan.baidu.com/s/1BqlK4OuFSjq7HRSEg3C2jw
-
-Extraction code: xmq5
